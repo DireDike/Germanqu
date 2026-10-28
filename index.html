@@ -192,7 +192,8 @@ input,select{font-family:inherit;font-size:inherit;color:inherit}
 .grade button:nth-child(4){border-color:rgba(74,217,255,.5);color:#8fe6ff}
 #fb{position:fixed;left:0;right:0;bottom:0;z-index:60;padding:14px 14px calc(14px + env(safe-area-inset-bottom));transform:translateY(120%);transition:transform .28s cubic-bezier(.2,.9,.2,1)}
 #fb.show{transform:translateY(0)}
-.fbin{max-width:720px;margin:0 auto;border-radius:18px;padding:15px 16px;border:2px solid;display:flex;align-items:flex-start;gap:12px}
+.fbin{max-width:720px;margin:0 auto;border-radius:18px;padding:15px 16px;border:2px solid;display:flex;flex-wrap:wrap;align-items:flex-start;gap:12px}
+.fbin>.btn{flex:1 1 100%;max-width:100%;margin-top:2px}
 .fbin.ok{background:linear-gradient(180deg,rgba(94,224,122,.2),rgba(20,27,46,.97));border-color:var(--lime)}
 .fbin.no{background:linear-gradient(180deg,rgba(255,93,108,.2),rgba(20,27,46,.97));border-color:var(--red)}
 .fbin .ico{font-size:26px;line-height:1;flex:none}
